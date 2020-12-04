@@ -20,6 +20,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .ticketBooth {
     margin-bottom: 1rem;
+    flex-basis: 25%;
+    text-align: center;
 }
 
 .attractions {
@@ -74,3 +76,7 @@ h1,h2,h3,h4,h5,h6 {
     padding: 1rem;
 }
 
+.entry{
+    display:flex;
+    justify-content: center;
+}
