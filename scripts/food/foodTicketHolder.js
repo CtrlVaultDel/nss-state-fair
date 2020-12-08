@@ -1,3 +1,4 @@
+// Selectors
 const foodContentTarget = document.querySelector(".food");
 const eventHub = document.querySelector("#state-fair");
 
