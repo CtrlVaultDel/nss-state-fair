@@ -3,6 +3,7 @@ import { ticketBooth } from "./ticketBooth.js";
 import { rideTicketHolder } from "./rides/rideTicketHolder.js";
 import { foodTicketHolder } from "./food/foodTicketHolder.js";
 import { gameTicketHolder } from "./games/gameTicketHolder.js";
+import { sideshowTicketHolder } from "./sideshows/sideshowTicketHolder.js";
 
 // Set up the ticket booth
 ticketBooth();
@@ -15,3 +16,6 @@ foodTicketHolder();
 
 // Provide functionality to the Game Ticket button
 gameTicketHolder();
+
+// Provide functionality to the Sideshow Ticket button
+sideshowTicketHolder();
