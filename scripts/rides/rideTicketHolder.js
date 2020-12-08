@@ -1,3 +1,4 @@
+// Selectors
 const rideContentTarget = document.querySelector(".rides");
 const eventHub = document.querySelector("#state-fair");
 

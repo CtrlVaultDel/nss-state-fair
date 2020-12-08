@@ -5,6 +5,7 @@ import { foodTicketHolder } from "./food/foodTicketHolder.js";
 import { gameTicketHolder } from "./games/gameTicketHolder.js";
 import { sideshowTicketHolder } from "./sideshows/sideshowTicketHolder.js";
 import { fullPackageTicketHolder } from "./bigSpender/fullPackageTicketHolder.js";
+import { totalCustomers } from "./customers/customers.js";
 
 // Set up the ticket booth
 ticketBooth();
@@ -23,3 +24,6 @@ sideshowTicketHolder();
 
 // Provide functionality to the Full Package Ticket button
 fullPackageTicketHolder();
+
+// Provide functionality to the total tickets purchased at the top
+totalCustomers();

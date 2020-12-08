@@ -79,9 +79,10 @@ body{
     background-color: firebrick;
 }
 
-.customers {
+.ticketsPurchased {
     font-weight: 700;
     padding: 1rem;
+    display:flex;
 }
 
 .entry{

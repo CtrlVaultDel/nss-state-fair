@@ -1,3 +1,4 @@
+// Selectors
 const gameContentTarget = document.querySelector(".games");
 const eventHub = document.querySelector("#state-fair");
 
