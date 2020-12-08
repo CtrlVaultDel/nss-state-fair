@@ -23,6 +23,10 @@ eventHub.addEventListener("click", clickEvent => {
             const sideshowEvent = new CustomEvent("sideshowTicketPurchased");
             eventHub.dispatchEvent(sideshowEvent);
             break;
+        case "fullPackageTicket":
+            const fullPackageEvent = new CustomEvent("fullPackageTicketPurchased");
+            eventHub.dispatchEvent(fullPackageEvent);
+            break;
     };
 });
 
@@ -34,6 +38,7 @@ export const ticketBooth = () => {
     buttonCreator("rideTicket","Ride Ticket") +
     buttonCreator("foodTicket","Food Ticket") +
     buttonCreator("gameTicket","Game Ticket") +
-    buttonCreator("sideshowTicket","SideShow Ticket")
+    buttonCreator("sideshowTicket","SideShow Ticket") +
+    buttonCreator("fullPackageTicket", "Full Package Ticket")
 };
 

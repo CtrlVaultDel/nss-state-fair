@@ -1,7 +1,7 @@
-const contentTarget = document.querySelector(".rides");
+const rideContentTarget = document.querySelector(".rides");
 const eventHub = document.querySelector("#state-fair");
 
 export const rideTicketHolder = () => {
     eventHub.addEventListener("rideTicketPurchased", () => 
-        contentTarget.innerHTML +=`<div class="person rider"></div>`)
+        rideContentTarget.innerHTML +=`<div class="person rider"></div>`)
 };

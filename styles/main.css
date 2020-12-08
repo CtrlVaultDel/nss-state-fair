@@ -18,6 +18,10 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: 2px;
 }
 
+body{
+    min-width: 360px;
+}
+
 #state-fair{
     background-color: lightgray;
 }
@@ -83,4 +87,5 @@ h1,h2,h3,h4,h5,h6 {
 .entry{
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
